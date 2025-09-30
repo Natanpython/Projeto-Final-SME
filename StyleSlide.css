@@ -2,6 +2,14 @@
   font-family: sans-serif;
   margin: 20px;
 }
+.textoSlide{
+  font-weight: 800;
+  font-size: 3rem;
+  margin: 40px auto;
+  background-color: rgb(192, 224, 198);
+  border-radius: 10rem;
+  width: 740px;
+}
 
 .slide.paused {
   user-select: none;
