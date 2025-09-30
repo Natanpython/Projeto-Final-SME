@@ -22,7 +22,7 @@
    align-items: center;
    padding: 3rem;
    height: 60px;
-  
+
  }
 
  .logo {
@@ -41,30 +41,77 @@
    gap: 3rem;
  }
 
- .menu .secre {
+ .menu a {
+   font-size: 1.2rem;
    color: var(--branco);
    text-decoration: none;
-   background-color: #30c5768c;
-   padding: 1rem;
-   border-radius: 5px;
-   transition: .5s;
+   z-index: 2000;
+   display: inline-block;
+   padding: 8px 18px;
+   border-radius: 6px;
+   background: #2e7d32;
+   /* botão branco */
+   color: #ffffff !important;
+   /* verde do site */
+   font-weight: 600;
+   border: 2px solid #66bb6a;
+   transition: 0.3s;
  }
- .Inicio{
-  color: var(--branco);
+
+ .menu a:hover {
+   background: #53b157;
+   color: #ffffff !important;
+   border: 2px solid #66bb6a;
+   z-index: 2000;
+ }
+
+ .Inicio {
+   color: var(--branco);
    text-decoration: none;
  }
+
  .Inicio:hover {
    background-color: #30c5768c;
    padding: 1rem;
    border-radius: 5px;
    transition: .5s;
  }
+
  #seletor {
-   text-align: center;
-   background-color: var(--verde-principal);
-   color: #ffffff;
-   font-weight: 500;
-   font-size: 1rem;
+   font-size: 1.2rem;
+   z-index: 2000;
+   display: inline-block;
+   padding: 8px 18px;
+   border-radius: 6px;
+   background: #2e7d32;
+   /* botão branco */
+   color: #ffffff !important;
+   /* verde do site */
+   font-weight: 600;
+   border: 2px solid #66bb6a;
+   transition: 0.3s;
+ }
+
+ #seletor:hover {
+   background: #53b157;
+   color: #ffffff !important;
+   border: 2px solid #66bb6a;
+   z-index: 2000;
+ }
+
+ #seletor option {
+   font-size: 1.2rem;
+   z-index: 2000;
+   display: inline-block;
+   padding: 8px 18px;
+   border-radius: 6px;
+   background:#2e7d32;
+   /* botão branco */
+   color: #ffffff !important;
+   /* verde do site */
+   font-weight: 400;
+   border: 2px solid #66bb6a;
+   transition: 0.3s;
  }
 
  .hamburger {
@@ -95,10 +142,10 @@
  }
 
  @media (max-width: 768px) {
-    .navbar
-    {
-      padding: 1rem;
-    }
+   .navbar {
+     padding: 1rem;
+   }
+
    .menu {
      display: none;
      flex-direction: column;
@@ -115,9 +162,11 @@
      justify-content: center;
      font-size: 1rem;
    }
+
    .menu a {
      text-align: center;
-     font-size: 1.3rem;
+     font-size: 1.2rem;
+     border: none;
    }
 
    .menu a:hover {
@@ -131,7 +180,9 @@
 
    .hamburger {
      display: flex;
-     
-     
    }
+   #seletor{
+    width: 100%;
+   }
+  
  }
