@@ -65,8 +65,8 @@
    z-index: 2000;
  }
 
- #inicioMenu{
-  background: #53b157;
+ #inicioMenu {
+   background: #53b157;
  }
 
  .Inicio:hover {
@@ -77,14 +77,14 @@
  }
 
  #seletor {
-  width: 150px;
+   width: 150px;
    font-size: 1.2rem;
    z-index: 2000;
    display: inline-block;
    padding: 8px 18px;
    border-radius: 6px;
    background: #007a3d;
-   color:#d1cfcf !important;
+   color: #d1cfcf !important;
    font-weight: 600;
    border: none;
    transition: 0.3s;
@@ -103,7 +103,7 @@
    display: inline-block;
    padding: 8px 18px;
    border-radius: 6px;
-   background:#007a3d;
+   background: #007a3d;
    /* botão branco */
    color: #ffffff !important;
    /* verde do site */
@@ -147,7 +147,7 @@
    .menu {
      display: none;
      flex-direction: column;
-     background-color:#007a3d;
+     background-color: #007a3d;
      position: absolute;
      top: 70px;
      right: 0;
@@ -179,12 +179,14 @@
    .hamburger {
      display: flex;
    }
-   #seletor{
-    width: 100%;
-    
+
+   #seletor {
+     width: 100%;
+
    }
-   #inicioMenu{
-  background: none;
- }
-  
+
+   #inicioMenu {
+     background: none;
+   }
+
  }

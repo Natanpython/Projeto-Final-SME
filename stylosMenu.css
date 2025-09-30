@@ -61,9 +61,11 @@
    border: none;
    transition: 0.3s;
  }
-#inicioMenu{
-  background: #53b157;
+
+ #inicioMenu {
+   background: #53b157;
  }
+
  .menu a:hover {
    background: #53b157;
    color: #ffffff !important;
@@ -79,6 +81,7 @@
  }
 
  #seletor {
+   width: 150px;
    font-size: 1.2rem;
    z-index: 2000;
    display: inline-block;
@@ -199,7 +202,8 @@
    #seletor {
      width: 100%;
    }
-   #inicioMenu{
-  background: none;
- }
+
+   #inicioMenu {
+     background: none;
+   }
  }
