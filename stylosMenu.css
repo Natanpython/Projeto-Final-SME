@@ -46,7 +46,7 @@
  }
 
  .menu a {
-  font-size: 1.2rem;
+   font-size: 1.2rem;
    color: var(--branco);
    text-decoration: none;
    z-index: 2000;
@@ -55,17 +55,19 @@
    border-radius: 6px;
    background: #007a3d;
    /* botão branco */
-   color:#d1cfcf !important;
+   color: #d1cfcf !important;
    /* verde do site */
    font-weight: 600;
-   border: 2px solid #333;
+   border: none;
    transition: 0.3s;
  }
-
+#inicioMenu{
+  background: #53b157;
+ }
  .menu a:hover {
    background: #53b157;
    color: #ffffff !important;
-   border: 2px solid #66bb6a;
+   border: none;
    z-index: 2000;
  }
 
@@ -77,7 +79,7 @@
  }
 
  #seletor {
-  font-size: 1.2rem;
+   font-size: 1.2rem;
    z-index: 2000;
    display: inline-block;
    padding: 8px 18px;
@@ -87,14 +89,14 @@
    color: #d1cfcf !important;
    /* verde do site */
    font-weight: 600;
-   border: 2px solid#333;
+   border: none;
    transition: 0.3s;
  }
 
  #seletor:hover {
    background: #53b157;
    color: #ffffff !important;
-   border: 2px solid #66bb6a;
+   border: none;
    z-index: 2000;
  }
 
@@ -193,7 +195,11 @@
    .hamburger {
      display: flex;
    }
-    #seletor{
-    width: 100%;
+
+   #seletor {
+     width: 100%;
    }
+   #inicioMenu{
+  background: none;
+ }
  }
